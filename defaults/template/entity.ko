@@ -1,0 +1,10 @@
+<template context="field">
+    <div>
+        <a data-bind="attr: { href: {{field}} ? '#{{baseType}}' + {{field}} : '#' }"><span data-bind="text: {{displayField}}"></span></a>
+    </div>
+</template>
+<template context="listField">
+    <span>
+        <a data-bind="attr: { href: {{field}} ? '#{{baseType}}' + {{field}} : '#' }"><span data-bind="text: {{displayField}}"></span></a>
+    </span>
+</template>

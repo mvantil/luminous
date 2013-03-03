@@ -1,0 +1,15 @@
+{
+    "mongoConnection": "mongodb://localhost:27017/luminous",
+    "modules": {
+        "metadata": "luminous-mongo-metadata",
+        "typeResource": "luminous-file-resource-type-loader",
+        "template": "luminous-knockout-template"
+    },
+    "typeResource": {
+        "path": "template",
+        "extension": "ko"
+    },
+    "metadata": {
+        "typeCollection": "/type"
+    }
+}

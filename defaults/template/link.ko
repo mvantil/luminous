@@ -1,0 +1,20 @@
+<template context="field">
+    <div>
+        {{#display}}<b>{{this}}</b>: {{/display}}<span data-bind="text: {{field}}"/>
+    </div>
+</template>
+<template context="field" writable="yes">
+    <div>
+        {{#display}}<b>{{this}}</b>: {{/display}}<input data-bind="value: {{field}}"/>
+    </div>
+</template>
+<template context="listField">
+    <span>
+        {{#display}}<b>{{this}}</b>: {{/display}}<span data-bind="text: {{field}}"/>
+    </span>
+</template>
+<template context="listField" writable="yes">
+    <span>
+        {{#display}}<b>{{this}}</b>: {{/display}}<span data-bind="value: {{field}}"/>
+    </span>
+</template>
