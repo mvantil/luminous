@@ -1,9 +1,14 @@
 {
     "mongoConnection": "mongodb://localhost:27017/luminous",
+    "dataConnection": {
+    	"driver": "mongo",
+    	"dbname": "luminousTestDb"
+    },
     "modules": {
         "metadata": "luminous-mongo-metadata",
         "typeResource": "luminous-file-resource-type-loader",
-        "template": "luminous-knockout-template"
+        "template": "luminous-knockout-template",
+        "repositoryFactory": "luminous-mde-model-repository"
     },
     "typeResource": {
         "path": "template",

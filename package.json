@@ -1,10 +1,11 @@
 {
   "name": "luminous",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "luminous\r ========",
   "main": "lib/luminous.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo Something"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,7 @@
   "readmeFilename": "README.md",
   "gitHead": "d85ce1861c00a37ddf4540c82af7ffdda0491375",
   "dependencies": {
-    "luminous-base": "~0.0.0",
+    "luminous-base": "~0.0.2",
     "underscore": "~1.4.4"
   },
   "devDependencies": {}
